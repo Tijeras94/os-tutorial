@@ -20,6 +20,12 @@ you didn't do it on lesson 00, and get those packages with `brew install`
 - libmpc
 - gcc
 
+If you are in ubuntu you can install tehe libraries with
+- sudo apt-get install libgmp3-dev
+- sudo apt-get install libmpfr-dev libmpfr-doc libmpfr4 libmpfr4-dbg
+- sudo apt-get install libmpc-dev
+
+
 Yes, we will need `gcc` to build our cross-compiled `gcc`, especially on a Mac where gcc has been deprecated for `clang`
 
 Once installed, find where your packaged gcc is (remember, not clang) and export it. For example:
